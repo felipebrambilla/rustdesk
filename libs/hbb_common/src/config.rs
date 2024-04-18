@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.infomaster.inf.br"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["http://remote.infomaster.inf.br"];
 pub const PUBLIC_RS_PUB_KEY: &str = "Yo+zihdoCgbvcSDQ7kQSmAxuUKNXU3Awk34ZBq+xSi0=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
